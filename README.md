@@ -23,13 +23,13 @@
 <hr/>
 <h5>Known issues</h5>
 <ul>
-<li>None at this time, but I am sure this list will grow quickly!</li>
+<li>Need to go through all pages and fix various script issues</li>
 
 
 
 <h5>Changelog</h5>
-<strong>xx/xx/xx</strong>
-<p>xx</p>
+<strong>09/14/2014</strong>
+<p>Initial Commmit</p>
 <ul>
 <li>xxxx</li>
 <li>xxxx</li>
