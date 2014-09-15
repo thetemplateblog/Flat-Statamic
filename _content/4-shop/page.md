@@ -1,5 +1,5 @@
 ---
 title: Shop
 _template: shop
-_fieldset: page
+_fieldset: no_content
 ---

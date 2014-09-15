@@ -1,5 +1,5 @@
 ---
 title: Pages
 _template: page
-_fieldset: page
+_fieldset: no_content
 ---

@@ -1,5 +1,5 @@
 ---
 title: Blog
-_template: blog
-_fieldset: page
+_template: page
+_fieldset: no_content
 ---
