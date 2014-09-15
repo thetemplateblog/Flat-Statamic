@@ -1,6 +1,6 @@
 <h1>Flat-Statamic</h1>
 
-<h3>This is a port of the October CMS '<a href="_QQ_"https://octobercms.com/theme/responsiv-flat"_QQ_">Flat-UI</a>' theme for use with Statamic.</h3>
+<h3>This is a port of the October CMS '<a href="https://octobercms.com/theme/responsiv-flat">Flat-UI</a>' theme for use with Statamic.</h3>
 
  <p>A theme that uses a Flat user-interface and has no dependencies on others plugins.</p>
                                     <p>A free Flat user interface theme based on <a href="http://designmodo.github.io/Flat-UI/">Flat UI by designmodo</a> (free version) for OctoberCMS. The theme is made on the basis of Twitter Bootstrap in a stunning flat-style and the original kit includes a PSD version for designers.</p>
