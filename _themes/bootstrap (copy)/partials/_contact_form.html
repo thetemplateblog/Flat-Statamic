@@ -1,0 +1,44 @@
+{{ if {raven:success} }}
+<div class="success">
+  <h2>Thank You, Your Message Has Been Sent</h2>
+  <p>I look forward to speaking with you very soon.</p>
+</div><!-- END .success -->
+{{ endif }}
+
+{{ if {raven:has_errors} }}
+<div class="errors">
+  <h2>Sorry the following errors occurred:</h2>
+
+  <ul>
+  {{ raven:errors }}
+    {{ missing }}
+      <li>Please enter your <b>{{ field }}</b>, it is a required field.</li>
+    {{ /missing }}
+
+    {{ invalid }}
+      <li>{{ message }}</li>
+    {{ /invalid }}
+
+  {{ /raven:errors }}
+  </ul>
+</div><!-- END .errors -->
+{{ endif }}
+
+{{ raven:form formset="contact" attr="class:form|id:form" }}
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" value="{{ value:name }}" placeholder="Jamie Smith" required>
+  </div>
+
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" value="{{ value:email }}" placeholder="email@example.com" required>
+  </div>
+
+  <div>
+    <label for="message">Your Message:</label>
+    <textarea name="message" id="message" placeholder="Type your message here&hellip;" required>{{ value:message }}</textarea>
+  </div>
+
+  <button type="submit" class="btn right">submit</button>
+{{ /raven:form }}

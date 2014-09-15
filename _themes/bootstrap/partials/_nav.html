@@ -1,0 +1,31 @@
+
+    <!-- <ul class="nav__list nav__list--primary"> -->
+      <li class="nav__listItem">
+        <a href="{{ homepage }}"{{ if segment_1 == "" }} class="current"{{ endif }}>Home</a>
+      </li>
+            {{ nav from="/" max_depth="2" }}
+            <li class="divider"></li>
+            <li class="{{ if is_current || is_parent }}active {{ endif }}{{ if children }}dropdown {{ endif }}">
+              <a href="{{ url }}"{{ if children }}class="dropdown-toggle" data-toggle="dropdown"{{ endif }}>{{ title }}{{ if children }}<b class="caret"></b>{{ endif }}</a>
+              {{ if children }}
+                <ul class="dropdown-menu">
+                {{children}}
+                  <li><a href="{{ url }}">{{ title }}</a></li>
+                {{/children}}
+                </ul>
+              {{ endif }}
+            </li>
+            {{ /nav }}
+    <!-- </ul> -->
+
+
+{{#
+====================================
+  NOTES
+====================================
+
+This is the main nav partial.
+
+It uses the nav tag to render a list of navigation items. For more information on the nav tag see http://statamic.com/learn/documentation/tags/nav.
+
+#}}

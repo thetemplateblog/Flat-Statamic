@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+
+{{ theme:partial src="_meta" }}
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+{{# Place favicon.ico and apple-touch-icon.png in the root directory. #}}
+<!-- Loading Bootstrap -->
+<link rel="stylesheet" href="{{ theme:asset src="css/vendor/bootstrap.min.css" }}">
+
+<!-- Loading Flat UI -->
+<link rel="stylesheet" href="{{ theme:asset src="css/flat-ui.css" }}">
+<link rel="shortcut icon" href="img/favicon.ico">
+
+<!-- feeds -->
+<link rel="alternate" type="application/rss+xml" href="{{ _site_url }}feed" title="{{ _site_name }} RSS Feed">
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+<!--[if lt IE 9]>
+	<script src="{{ theme:asset src="js/vendor/html5shiv.js" }}"></script>
+    <script src="{{ theme:asset src="js/vendor/respond.min.js" }}"></script>
+    <![endif]-->
+    
+<!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+    <script src="{{ theme:asset src="js/vendor/jquery.min.js" }}"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{{ theme:asset src="js/flat-ui.min.js" }}"></script>
+<!-- analytics -->
+{{ theme:partial src="_analytics" }}
+
+</head>
