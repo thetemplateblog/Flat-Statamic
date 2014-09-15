@@ -1,0 +1,20 @@
+include: meta                  # include the meta fields
+hide: true
+
+fields:
+  title:
+    instructions: "Enter the main title here."
+
+  welcome:
+    display: Welcome
+    required: true
+    type: textarea
+    instructions:
+      below: "Add a short summary to show next to the video."
+
+  about_video:
+    display: Video
+    required: true
+    type: textarea
+    instructions:
+      below: "Add the video embed code here."
