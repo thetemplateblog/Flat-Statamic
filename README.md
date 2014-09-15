@@ -1,21 +1,30 @@
 <h1>Flat-Statamic</h1>
 
-<h3>This is a port of the October CMS 'Flat-UI' theme for use with Statamic.</h3>
+<h3>This is a port of the October CMS '<a href="_QQ_"https://octobercms.com/theme/responsiv-flat"_QQ_"> Flat-UI</a>' theme for use with Statamic.</h3>
 
-<!-- <p>JoomberUI is a fork to <a href="_QQ_"http://http://www.siegeengine.org/"_QQ_">Siege Engine</a>, a responsive template framework for Joomla built on Foundation4</p>
-<p>Based on Zurb's excellent Foundation 5 framework, and using some simple but robust PHP and a lot of things learned from SiegeEngine2, JoomberUI aims to be fast and flexible to use.</p>
-<p>The biggest change from <a href="_QQ_"http://http://www.siegeengine.org/"_QQ_">Siege Engine</a> is that <a href="_QQ_"http://http://www.joomberui.joomber.com/"_QQ_">Joomber UI</a> is fully <strong>SCSS</strong> ready! Once you learn the benefits of using SCSS, you will never want to go back.</p>
-<p>As always, Foundation is untouched, so you can update it to your heart's content as Zurb release updates. All of the Joomla specific styling is located in our joomla.css file so you always know where to look.</p>
-
-<p>You can see a little DEMO of some of the very basics of what the template can do. NOTE: There are NO extensions added to any of the below sites. <br><br>
-<a href="http://small-business.joomber.com/" alt="Foundation5 for Joomla3" title="JoomberUI - Foundation5 template for Joomla">Small-Business</a><br>
-<a href="http://modern-business.joomber.com/" alt="Foundation5 for Joomla3" title="JoomberUI - Foundation5 template for Joomla">Modern-Business</a> -->
-<!-- <p>For more info, some basic documentation and a working demo, head over to <strong><a href="http://joomberui.joomber.com/" alt="Foundation4 for Joomla3" title="JoomberUI - Foundation4 template for Joomla">http://joomberui.joomber.com//</a><strong></p> -->
-
+ <p>A theme that uses a Flat user-interface and has no dependencies on others plugins.</p>
+                                    <p>A free Flat user interface theme based on <a href="http://designmodo.github.io/Flat-UI/">Flat UI by designmodo</a> (free version) for OctoberCMS. The theme is made on the basis of Twitter Bootstrap in a stunning flat-style and the original kit includes a PSD version for designers.</p>
+<p>This is a <em>non functional</em> theme and therefore has no dependencies on other plugins. It includes various sample pages including:</p>
+<ul>
+<li>Blog category</li>
+<li>Blog post</li>
+<li>Portfolio categories</li>
+<li>Portfolio item</li>
+<li>Shop categories</li>
+<li>Shop product</li>
+<li>Shop cart</li>
+<li>Basic pricing table</li>
+<li>Services page</li>
+<li>Sign in / Register</li>
+<li>Custom error and 404 pages</li>
+<li>About us</li>
+<li>Contact us</li>
+</ul>
 <hr/>
 <h5>Known issues</h5>
 <ul>
 <li>None at this time, but I am sure this list will grow quickly!</li>
+
 
 
 <h5>Changelog</h5>
@@ -23,6 +32,11 @@
 <p>xx</p>
 <ul>
 <li>xxxx</li>
+<li>xxxx</li>
+<li>xxxx</li>
+<li>xxxx</li>
+</ul>
+---------------------
 <li>xxxx</li>
 <li>xxxx</li>
 <li>xxxx</li>
