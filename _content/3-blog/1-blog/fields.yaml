@@ -1,3 +1,2 @@
-type: date                     # see http://statamic.com/learn/core-concepts/pages-and-entries
-hide: yes                      # hide page from Add Page list
-_fieldset: post                # use the post fieldset
+type: date
+_fieldset: post

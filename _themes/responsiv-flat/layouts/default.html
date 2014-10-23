@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <title>Flat UI - {{ this.page.title }}</title> -->
+        <title>
+            {{ _site_name }}
+            {{ if segment_1 }}
+            – {{ title }}
+            {{ endif }}
+        </title>
+        <meta name="author" content="October CMS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/logo.png'|theme }}" />
+        {{ theme:css src="../assets/css/theme.css" tag="true" }}
+        
+        {{ theme:js src="../assets/javascript/jquery" tag="true" }}
+    </head>
+    <body class="page-{{ this_page_id }} layout-{{ this_layout_id }}">
+
+        <!-- Header -->
+        <header id="layout-header" class="header-navbar">
+            <!-- Nav -->
+            {{ theme:partial src="_nav" }}
+        </header>
+
+
+        <!-- Content -->
+        <div id="layout-content">
+            {{ layout_content }}
+        </div>
+
+        <!-- Mailing List -->
+        <section id="layout-subscribe" class="subscribe-form">
+            {{ theme:partial src="subscribe" }}
+        </section>
+
+        <!-- Footer -->
+        <footer id="layout-footer">
+            {{ theme:partial src="footer" }}
+        </footer>
+
+        {{ theme:js src="../assets/vendor/bootstrap/js/transition" tag="true" }}
+        {{ theme:js src="../assets/vendor/bootstrap/js/alert" tag="true" }}
+        {{ theme:js src="../assets/vendor/bootstrap/js/button" tag="true" }}
+        {{ theme:js src="../assets/vendor/bootstrap/js/carousel" tag="true" }}
+        {{ theme:js src="../assets/vendor/bootstrap/js/collapse" tag="true" }}
+        {{ theme:js src="../assets/vendor/bootstrap/js/dropdown" tag="true" }}
+        {{ theme:js src="../assets/vendor/bootstrap/js/modal" tag="true" }}
+        {{ theme:js src="../assets/vendor/bootstrap/js/tooltip" tag="true" }}
+        {{ theme:js src="../assets/vendor/bootstrap/js/popover" tag="true" }}
+        {{ theme:js src="../assets/vendor/bootstrap/js/scrollspy" tag="true" }}
+        {{ theme:js src="../assets/vendor/bootstrap/js/tab" tag="true" }}
+        {{ theme:js src="../assets/vendor/bootstrap/js/affix" tag="true" }}
+        {{ theme:js src="../assets/vendor/flat-ui/js/bootstrap-select" tag="true" }}
+        {{ theme:js src="../assets/vendor/flat-ui/js/bootstrap-switch" tag="true" }}
+        {{ theme:js src="../assets/vendor/flat-ui/js/flatui-checkbox" tag="true" }}
+        {{ theme:js src="../assets/vendor/flat-ui/js/flatui-radio" tag="true" }}
+        {{ theme:js src="../assets/vendor/flat-ui/js/jquery.tagsinput" tag="true" }}
+        {{ theme:js src="../assets/vendor/flat-ui/js/jquery.placeholder" tag="true" }}
+        {{ theme:js src="../assets/javascript/app" tag="true" }}
+
+<!--         {% framework extras %}
+        {% scripts %} -->
+
+    </body>
+</html>

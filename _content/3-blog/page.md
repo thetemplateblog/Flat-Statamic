@@ -1,5 +1,7 @@
 ---
 title: Blog
-_template: page
-_fieldset: no_content
+_template: blog/blog
+_fieldset: page
+this_page_id: blog-blog
+this_layout_id: default
 ---
