@@ -31,9 +31,6 @@
 <hr/>
 <h5>Known issues</h5>
 <ul>
-<li>Need to go through all pages and fix various script issues</li>
-<li>Portfolio & Project pages need the image re-sizig setup</li>
-<li>All of the shop pages need the scripting setup</li>
 <li>Sign-in button doesn't do anything<li>
 </ul>
 
@@ -42,7 +39,9 @@
 <strong>09/14/2014</strong>
 <p>Initial Commmit</p>
 <ul>
-<li>xxxx</li>
+<li><strong>10/23/2014</strong>
+<p>Rewrite</p>
+</li>
 <li>xxxx</li>
 <li>xxxx</li>
 <li>xxxx</li>
